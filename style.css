@@ -56,13 +56,25 @@
 }
 .input-box {
   padding-top: 30px;
+
 }
-.input-box input {
-  width: 55%;
-  padding: 8px;
-  border-radius: 12px;
-  border: none;
+.input-btn{
+  padding: 8px 30px;
+border: none;
+border-radius: 7px;
+display: flex;
+gap: 30px;
+cursor: pointer;
+  
 }
+.input-icon i{
+  background-color: #245059;
+  color: #fff;
+ padding: 7.5px 12px 10px 10px;
+  border-radius: 40%;
+  align-items: center;
+}
+
 /* offers */
 .offer {
   padding-top: 100px;
@@ -204,6 +216,31 @@
   font-size: 14px;
   color: #949292;
 }
+
+.category-subcontent{
+  display: flex;
+  background: #245059;
+  width: 100%;
+  height: 70vh;
+  margin-top: 100px;
+}
+
+.category-pic img{
+  width: 80%;
+  margin-left: 40px;
+  padding: 50px;
+  position: relative;
+  height: 70vh;
+  bottom: 20%;
+}
+
+.category-pic2 img{
+  width: 80%;
+  margin-left: 40px;
+  padding: 50px;
+  height: 70vh;
+}
+
 /* footer */
 
 .footer {
